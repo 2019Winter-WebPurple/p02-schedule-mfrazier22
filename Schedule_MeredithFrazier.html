@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<!-- Meredith Frazier -->
+<!-- March 20, 2019 -->
+<!-- Project 02 - Schedule -->
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="Schedule_MeredithFrazier.css"> <!-- link to CSS --> <!-- metadata -->
+        <meta charset="utf-8">
+        <meta name="description" content="A short page with one table about Meredith Frazier's 2nd semester schedule using colspan and rowspan.">
+        <meta name="keywords" content="Meredith Frazier, 2nd Semester, HTML, Padua Academy, CSS, school, schedule">
+        <title>Meredith Frazier's 2nd Semester Schedule</title>
+        <link rel="shortcut icon" href="calendar.ico"> <!-- favicon -->
+    </head>
+    
+    <body>
+        
+        <table border="black"> <!-- This table demonstrates how to use the rowspan and colspan attribute -->
+        
+            
+            
+            <thead> <!-- This is the head information for the table. -->
+                
+            <tr> <!-- This row uses the colepan attribute across 8 cells and is the title (using the <th> tag) for the table. -->
+                <th colspan="8"> <br> Meredith Frazier's 2nd Semester Schedule <br><br></th> 
+            </tr>
+                
+            <tr><!-- This row is the uses the <th> tag for the table. -->
+                <td></td>
+                <th>Cycle 1</th>
+                <th>Cycle 2</th>
+                <th>Cycle 3</th>
+                <th>Cycle 4</th>
+                <th>Cycle 5</th>
+                <th>Cycle 6</th>
+                <th>Cycle 7</th>
+            </tr>
+                
+            </thead>
+            
+            
+            
+            <tbody> <!-- This is the body information for the table and uses the table data tag (<td> attribute). -->
+                
+            <tr> <!-- This fills in the empty spaces in the table for row 3, using line breaks <br> and italics <i>. -->
+                <td>8:15-8:55am <br> <i>Period 1</i></td>
+                <td>Web Page Design</td>
+                <td>Web Page Design</td>
+                <td>Web Page Design</td>
+                <td>Web Page Design</td>
+                <td>Web Page Design</td>
+                <td>Web Page Design</td>
+                <td>Honors Biology</td>
+            </tr>
+                
+            <tr> <!-- This uses the colepan attribute across 7 cells for row 4. -->
+                <td>9:00-9:15am <br> <i>Homeroom</i></td> 
+                <td colspan="7"> Homeroom</td>
+            </tr>
+                
+            <tr> <!-- This uses the colepan attribute across 7 cells for row 5. -->
+                <td>9:20-10:00am <br> <i>Flex</i></td> 
+                <td colspan="7"> Flex</td>
+            </tr>
+                
+            <tr> <!-- This fills in the empty spaces in the table for row 6, using line breaks <br> and italics <i>. -->
+                <td>10:05-11:20am <br> <i>Period 2</i></td>
+                <td>Honors Algebra <br> II Trigonometry</td>
+                <td>Honors World <br> Civilization</td>
+                <td>Honors Biology</td>
+                <td>Honors Literature</td>
+                <td>Sacred Scripture <br> and Christology</td>
+                <td>Spanish I</td>
+                <td>Physical Education</td>
+            </tr>
+                
+            <tr> <!-- This uses the rowspan attribute for 4 cells in row 7. -->
+                <td>11:25-11:50am <br> <i>Period 3-1</i></td>
+                <td rowspan="2">Honors World <br> Civilization</td>
+                <td rowspan="2">Honors Biology</td>
+                <td><i>Lunch 1</i></td>
+                <td><i>Lunch 1</i></td>
+                <td rowspan="2">Spanish I</td>
+                <td><i>Lunch 1</i></td>
+                <td rowspan="2">Honors <br> II Trigonometry</td>
+            </tr>
+                
+            <tr> <!-- This row fills in the empty spaces in the table for row 8 and uses the rowspan attribute for 3 cells. -->
+                <td>11:55am- <br> 12:10pm <br> <i>Period 3-2</i></td>
+                <td rowspan="2">Honors Literature</td>
+                <td rowspan="2">Sacred Scripture <br> and Christology</td>
+                <td rowspan="2">Physical Education</td>
+            </tr>
+                
+            <tr> <!-- This row fills in the empty spaces in the table for row 9, using italics <i>. -->
+                <td>12:15-12:40pm <br> <i>Period 3-3</i></td>
+                <td><i>Lunch 2</i></td>
+                <td><i>Lunch 2</i></td>
+                <td><i>Lunch 2</i></td>
+                <td><i>Lunch 2</i></td>
+            </tr>
+                
+            <tr> <!-- This row fills in the empty spaces in the table for row 10, using line breaks <br>. -->
+                <td>12:45-1:35pm <br> <i>Period 4</i></td>
+                <td>Spanish I</td>
+                <td>Physical Education</td>
+                <td>Honors Algebra <br> II Trigonometry</td>
+                <td>Honors World <br> Civilization</td>
+                <td>Honors Biology</td>
+                <td>Honors Literature</td>
+                <td>Sacred Scripture <br> and Christology</td>
+            </tr>
+                
+            <tr> <!-- This row fills in the empty spaces in the table for row 11, using line breaks <br>. -->
+                <td>1:40-2:35pm <br> <i>Period 5</i></td>
+                <td>Honors Literature</td>
+                <td>Sacred Scripture <br> and Christology</td>
+                <td>Spanish I</td>
+                <td>Physical Education</td>
+                <td>Honors Algebra <br> II Trigonometry</td>
+                <td>Honors World <br> Civilization</td>
+                <td></td>
+            </tr>
+                
+            </tbody>
+            
+            
+            
+            <tfoot> <!--  This is the foot information for the table and uses the <td> tag . -->
+                
+            <tr> <!-- This row uses the colepan attribute across 7 cells. -->
+                <td>After School <br> Activities</td>
+                <td colspan="7">Walk Dogs, Clean Room, Homework</td>
+            </tr>
+                
+            </tfoot>
+            
+            
+            
+        </table>
+            
+    </body>
+</html>

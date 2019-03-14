@@ -1,0 +1,30 @@
+/*
+* Meredith Frazier
+* March 20, 2019
+* Project 02 - Schedule
+*/
+
+/* The universal selector */
+
+*{
+
+}
+
+/* Body properties here */
+
+body {
+    
+    background: lightgrey; /* This is the background color of the entire page. */
+
+}
+
+
+table {background-color: lightyellow} /* This is the background color of the table. */
+
+table, td, th {border: 1px solid darkblue;} /* This makes the borders of the tables blue and 1 pixel wide. */
+
+table {border-collapse: collapse;}  /* This makes the borders one line. */
+
+thead {background-color: lightgreen;} /* This makes the theads of the tables lime. */
+
+tfoot {background-color: paleturquoise;}  /* This makes the tfoots of the tables blue. */
